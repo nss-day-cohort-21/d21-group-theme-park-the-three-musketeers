@@ -5,6 +5,7 @@ lib/.sass-cache
 dist
 css/main.css
 css/main.css.map
+lib/package-lock.json
 
 
 # Compiled source #
