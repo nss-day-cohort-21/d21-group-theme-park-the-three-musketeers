@@ -2,24 +2,82 @@
 <html lang="en">
 	<head>
 		<title></title>
-			<meta charset="utf-8">
-			<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/scss" href="sass/main.scss">
 	</head>
 	
 	<body>
-		<wrapper>
-			<header>
-				<h1></h1>
-			</header>
+		<!-- NAV-BAR -->
+		<nav id="myNavBar" class="navBar" role="navigation">					
+			<div class="container-fluid">
+				<div class="col-sm-4">
+					Logo
+				</div>
+				<div class="col-sm-4">
+						Text-field search bar
+				</div>
+				<div class="col-sm-4">
+						Time selector
+				</div>					
+			</div>
+		</nav>
+
+		<!-- SIDE-BAR -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+						SideBar
+				</div>
+			</div>
+		</div>
+
+		<!-- MAP - GRID -->
+
+		<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-8">
+							MAP - GRID
+						<div class="row">
+							<div class=col-sm-4>
+								1-2-3
+							</div>
+						</div>	
+						<div class="row">
+							<div class=col-sm-4>
+									4-blank-5
+							</div>
+						</div>
+						<div class="row">
+							<div class=col-sm-4>
+									6-7-8
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
 			
-			
-			
-			<footer>
-				
-			</footer>
-			
-		</wrapper><!--/.wrapper-->
-		<script type="text/javascript" src="javascripts/main.js"></script>
+		<!-- FOOTER -->
+
+		<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+							FOOTER
+					</div>
+				</div>
+		</div>
+
+
+
+
+		<script 
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script src="dist/app.js"></script>
+
 	</body>
 	
 </html>
