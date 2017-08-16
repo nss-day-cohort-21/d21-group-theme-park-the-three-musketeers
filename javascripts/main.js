@@ -1,10 +1,21 @@
 "use strict";
 console.log("main.js active");
+// let Handlebars = require ('./hbsfy/runtime');
+let parkAreas = require('./attraction-factory.js');
+// Handlebars.regiserHelper("incrementAreas", (value) => parseInt(value) + 1);
+//populate data
+// function populateGrid(parkNames) {
+// let newDiv = document.createElement("div");
+// newDiv.innerHTML = funAreas(parkNames);
+// $("#grid1").append(newDiv);
+// }
+// funAreas.getAreas = () => {
+// } 
 
-/***********  SCRIPT  ***************/
-
-
-/***********  SCRIPT  ***************/
-
-
-/***********  SCRIPT  ***************/
+parkAreas.getAreas()
+.then((data) => {
+console.log('from main.js data', data);
+},
+(reject) => {
+console.log('somthing went wrong in main.js');
+});
