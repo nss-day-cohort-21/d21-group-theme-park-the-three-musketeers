@@ -1,0 +1,116 @@
+h5 {
+    color: blue;
+    font-size: 20px;
+}
+
+h6 {
+    color: brown;
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+
+}
+.nav {
+    font-size: 16px;
+    background-color: teal;
+    height: 100px;
+    color:white;
+    padding: 29px 0px 0px 8px;
+    line-height: 22px;
+
+}
+
+.logo {
+    font-size: 2.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#search {
+    border-radius: 6px;
+    line-height: 21px;
+    color: black;
+    
+}
+
+#co-name {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar {
+    background-color: lightyellow;
+    padding: 4px;
+    border-radius: 12px;
+    padding: 0 0 0 22px;
+    border-radius: 12px;
+    
+
+}
+
+// all grids css
+.grid {
+    line-height: 145px;
+    padding: 3px 0px 3px 0px;
+    border-radius: 12px;
+    font-size: 22px;
+    text-align: center;
+    border-style: 2px solid gray;
+}
+
+//individual color placeholders for grids
+
+#grid1 {
+    background-color: rgba(227, 227, 15, 0.67);
+    
+}
+
+#grid2 {
+    background-color: #44D3CB;
+}
+
+#grid3 {
+    background-color: lightseagreen;
+}
+
+#grid4 {
+    background-color: #667ED9;
+}
+
+#grid5 {
+    background-color: rgba(255, 165, 0, 0.63);
+}
+
+#grid6 {
+    background-color: #12A4D5;
+}
+
+#grid7 {
+    background-color: #63D0D0;
+}
+
+#grid8 {
+    background-color: limegreen;
+}
+
+#grid8 {
+    background-color: lightgreen;
+}
+
+#grid9 {
+    background-color: #749ACA;
+}
+
+.not-used {
+    color: gray;
+}
+
+.footer {
+   
+    text-align: center;
+    padding: 9px;
+    background-color: teal;
+    height: 60px;
+    color: white;
+}
