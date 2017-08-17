@@ -2,11 +2,12 @@
 console.log('inside attraction-factory.js');
 
 
-/*********** Empty Arractions Array SCRIPT  ***************/
-// Initialize empty objct
-// let attractionsArea = [];
+/*************************/
+// Initialize an empty objct to hold park methods
+
 let parkMethods = {};
 
+/*************************/
 // load data using ajax
 parkMethods.getAreas = () => {
     return new Promise (function(resolve, reject){
@@ -14,7 +15,7 @@ parkMethods.getAreas = () => {
             url:`https://themepark-85ce7.firebaseio.com/areas.json`
         })
         .done(function(data){
-            //  console.log('data', data);
+        //    console.log('thurs', data);
             
             
             resolve(data);
@@ -22,8 +23,12 @@ parkMethods.getAreas = () => {
         .fail(reject);
     });
 
+
+    
 };
 
+/*************************/
+//makes the this module available for export to the parkMethods object (see above line 8)
  module.exports = parkMethods;
 
 
