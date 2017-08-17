@@ -5,7 +5,7 @@ let parkAreas = require('./attraction-factory.js');
 let gridTemplate = require('../templates/parkGrid.hbs');
 
 
-// Handlebars.regiserHelper("incrementAreas", (value) => parseInt(value) + 1);
+Handlebars.registerHelper("incrementer", (value) => parseInt(value) + 1);
 //populate data
 // function populateGrid(parkNames) {
 // let newDiv = document.createElement("div");

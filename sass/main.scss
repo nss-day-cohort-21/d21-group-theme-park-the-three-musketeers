@@ -51,10 +51,11 @@ p {
 
 // all grids css
 .grid {
+    color: lightgray;
     line-height: 145px;
     padding: 3px 0px 3px 0px;
     border-radius: 12px;
-    font-size: 22px;
+    font-size: 12px;
     text-align: center;
     border-style: 2px solid gray;
 }
@@ -62,36 +63,36 @@ p {
 //individual color placeholders for grids
 
 #grid1 {
-    background-color: rgba(227, 227, 15, 0.67);
+    background-color: #730217;
     
 }
 
 #grid2 {
-    background-color: #44D3CB;
+    background-color:  #D15530;
 }
 
 #grid3 {
-    background-color: lightseagreen;
+    background-color: #A37849;
 }
 
 #grid4 {
-    background-color: #667ED9;
+    background-color: #2594D9;
 }
 
 #grid5 {
-    background-color: rgba(255, 165, 0, 0.63);
+    background-color: lightyellow;
 }
 
 #grid6 {
-    background-color: #12A4D5;
+    background-color: #E73C81;
 }
 
 #grid7 {
-    background-color: #63D0D0;
+    background-color: #3E4D8C;
 }
 
 #grid8 {
-    background-color: limegreen;
+    background-color: #F2CF53;
 }
 
 #grid8 {

@@ -14,7 +14,7 @@ parkMethods.getAreas = () => {
             url:`https://themepark-85ce7.firebaseio.com/areas.json`
         })
         .done(function(data){
-            // console.log('data', data);
+            //  console.log('data', data);
             
             
             resolve(data);
