@@ -18,7 +18,7 @@ let sideBarTemplate = require('../templates/sidebar.hbs');
 
 //******************** */
 //this increments the handlebars index by one so it starts 1
-Handlebars.registerHelper("incrementer", (value) => parseInt(value) + 1);
+// Handlebars.registerHelper("incrementer", (value) => parseInt(value) + 1);
 
 //******************** */
 //a getAreas method that uses a promise to get the data from attraction factory
@@ -45,6 +45,7 @@ function gridData(data){
 }
 
 
+
 //******************** */
 // function to populate the sidebar and will be called on click of grid
 function populateSideBar(data){
@@ -58,6 +59,7 @@ function populateSideBar(data){
 	//  JQuery to get yellow border on click for grids 1-7
 	$("#grid1").click(function() {
 		$("#grid1").addClass("yellow-border");
+		
 	});
 
 	$("#grid2").click(function() {

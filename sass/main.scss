@@ -19,7 +19,6 @@ p {
     color:white;
     padding: 29px 0px 0px 8px;
     line-height: 22px;
-    margin: 0px 0px 6px 0px;
 
 }
 
@@ -40,38 +39,29 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.sidebar {
+#sidebar {
     background-color: lightyellow;
     padding: 4px;
     border-radius: 12px;
     padding: 0 0 0 22px;
     border-radius: 12px;
-    height: 548px;
     
 
 }
 
-//grid row heights inside park factory each loop
-// .row-height {
-//     // height: 180px;
-//     overflow: hidden;
-//     // margin: 3px 0px;
-// }
-
-// add thick yellow border on grids when clicked
-.yellow-border {
-    border: 4px solid yellow; 
-    border-radius: 4px;
+.yellow-border{
+    border: 3px solid yellow;
 }
-
-
 
 // all grids css
 .grid {
-    color: lightgray;
-    max-height: 188px;
-    // min-height: 99px;
-    overflow: hidden;
+    line-height: 145px;
+    padding: 3px 0px 3px 0px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    border-style: 2px solid gray;
+    color:lightgray
 }
 
 //individual color placeholders for grids
@@ -82,7 +72,7 @@ p {
 }
 
 #grid2 {
-    background-color:  #D15530;
+    background-color: #D15530;
 }
 
 #grid3 {
@@ -95,34 +85,35 @@ p {
 
 #grid5 {
     background-color: white;
-    color: white;
 }
 
 #grid6 {
     background-color: #E73C81;
+   
 }
 
 #grid7 {
     background-color: #3E4D8C;
+   
 }
 
 #grid8 {
     background-color: #F2CF53;
-}
-
-#grid8 {
-    background-color: lightgreen;
     color: gray;
+
+    
 }
 
 #grid9 {
     background-color: white;
 }
 
-
+.not-used {
+    color: gray;
+}
 
 .footer {
-    margin: 6px 0px 0px 0px;
+   
     text-align: center;
     padding: 9px;
     background-color: teal;
