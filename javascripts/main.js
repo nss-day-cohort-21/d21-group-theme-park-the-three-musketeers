@@ -93,8 +93,14 @@ function populateSideBar(data){
 
 
 
-
-
+// **************Time picker********************
+function timeToSideBar(data){
+	document.getElementById("timePicker").innerHTML = results;
+	console.log("timePicker: ", timePicker)
+	// $("#sidebar").append(newDiv);
+}
+	
+	
 
 
 
