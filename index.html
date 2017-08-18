@@ -14,14 +14,14 @@
 		<!-- first main row -->
 		<div class = "row nav"> 
 			<div class="container-fluid">
-				<div class="col-xs-4">
+				<div class="col-sm-4">
 						<span class = "logo"> St Cloud Park </span>
 						<p id = "co-name">The Three Musketeers</p>
 				</div>
-				<div class="col-xs-5">
+				<div class="col-sm-5">
 						<input type = "text" name = "search" size = "42" id = "search" placeholder="Search our park for details" >
 				</div>
-				<div class="col-xs-3">
+				<div class="col-sm-3">
 					<!-- time picker code -->
 					Time Picker
 					
@@ -34,7 +34,7 @@
 			<div class="row secondRow">
 
 				<!-- SIDE-BAR -->
-				<div class="col-xs-4 ">
+				<div class="col-sm-4" id="sidebar">
 					<h5> Currently Open Locations</h5>
 					<h6>FantasayLand</h6>
 					 <p>Operating Hours 8AM - 7PM</p>
@@ -53,14 +53,53 @@
 							
 				</div>
 
-					
-						
-
-
 				<!-- MAP - GRID -->
-				<div class="col-sm-8" id="grid">
-					
-					
+				<div class="col-sm-8">
+					<!-- first row for grids 1-3 -->
+					<div class = "row grid">
+							<div class= "col-sm-4" id = "grid1">
+								Main Street U.S.A.
+							</div>
+							<div class= "col-sm-4" id = "grid2">
+								Adventureland
+							</div>
+							<div class= "col-sm-4" id = "grid3">
+								Frontierland
+							</div>
+						</div>	
+
+
+						<!-- second row for grids 4-6 -->
+						<div class = "row grid">
+								<div class= "col-sm-4" id = "grid4">
+									Liberty Square
+								</div>
+								<div class= "col-sm-4" id = "grid5">
+										<div class = "not-used"> 
+											Not Used</div>
+								</div>
+								<div class= "col-sm-4" id = "grid6">
+										Fantasyland
+								</div>
+							</div>	
+
+						<!-- third row for grids 7-9 -->
+						<div class = "row grid">
+								<div class= "col-sm-4" id = "grid7">
+										Tomorrowland
+								</div>
+								<div class= "col-sm-4" id = "grid8">
+										Cinderlla Castle
+								</div>
+								<div class= "col-xs-4" id = "grid9">
+										<div class = "not-used">Not Used</div>
+								</div>
+							</div>	
+
+
+
+
+				</div>
 			</div>
 		</div>
 
@@ -75,21 +114,13 @@
 		<!-- <div class="container-fluid"> -->
 				<div class="row">
 					<div class="col-sm-12 footer">
-							Copyright 2017 -- Last updated Aug 15, 2017
+							Copyright 2017 -- Last updated Aug 18, 2017
 					</div>
 				</div>
 		<!-- </div> -->
 
 		<div></div>
 
-<!--- ****** NEW STUFF FOR HANDLEBARS ****-->
-
-	
-			<!-- <div id="grid">
-
-			</div> -->
-			
-<!--- **************** -->
 
 		<script 
 		src="https://code.jquery.com/jquery-3.2.1.min.js"

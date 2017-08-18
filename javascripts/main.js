@@ -13,8 +13,12 @@ let parkAreas = require('./attraction-factory.js');
 let gridTemplate = require('../templates/parkGrid.hbs');
 
 //******************** */
+//this handlebars template each loop to get park grid data
+let sideBarTemplate = require('../templates/sidebar.hbs');
+
+//******************** */
 //this increments the handlebars index by one so it starts 1
-Handlebars.registerHelper("incrementer", (value) => parseInt(value) + 1);
+// Handlebars.registerHelper("incrementer", (value) => parseInt(value) + 1);
 
 //******************** */
 //a getAreas method that uses a promise to get the data from attraction factory
@@ -40,6 +44,47 @@ function gridData(data){
 	$("#grid").append(newDiv);
 }
 
+
+
+//******************** */
+// function to populate the sidebar and will be called on click of grid
+function populateSideBar(data){
+	let newDiv = document.createElement("div");
+	newDiv.innerHTML = sideBarTemplate(data);
+	$("#sidebar").append(newDiv);
+}
+
+//******************** */
+//JQuery click events for grids
+	//  JQuery to get yellow border on click for grids 1-7
+	$("#grid1").click(function() {
+		$("#grid1").addClass("yellow-border");
+		
+	});
+
+	$("#grid2").click(function() {
+		$("#grid2").addClass("yellow-border");
+	});
+
+	$("#grid3").click(function() {
+		$("#grid3").addClass("yellow-border");
+	});
+
+	$("#grid4").click(function() {
+		$("#grid4").addClass("yellow-border");
+	});
+	
+	$("#grid6").click(function() {
+		$("#grid6").addClass("yellow-border");
+	});
+
+	$("#grid7").click(function() {
+		$("#grid7").addClass("yellow-border");
+	});
+
+	$("#grid8").click(function() {
+		$("#grid8").addClass("yellow-border");
+	});
 
 
 

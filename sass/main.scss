@@ -39,7 +39,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.sidebar {
+#sidebar {
     background-color: lightyellow;
     padding: 4px;
     border-radius: 12px;
@@ -49,15 +49,19 @@ p {
 
 }
 
+.yellow-border{
+    border: 3px solid yellow;
+}
+
 // all grids css
 .grid {
-    color: lightgray;
     line-height: 145px;
     padding: 3px 0px 3px 0px;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     border-style: 2px solid gray;
+    color:lightgray
 }
 
 //individual color placeholders for grids
@@ -68,7 +72,7 @@ p {
 }
 
 #grid2 {
-    background-color:  #D15530;
+    background-color: #D15530;
 }
 
 #grid3 {
@@ -80,27 +84,28 @@ p {
 }
 
 #grid5 {
-    background-color: lightyellow;
+    background-color: white;
 }
 
 #grid6 {
     background-color: #E73C81;
+   
 }
 
 #grid7 {
     background-color: #3E4D8C;
+   
 }
 
 #grid8 {
     background-color: #F2CF53;
-}
+    color: gray;
 
-#grid8 {
-    background-color: lightgreen;
+    
 }
 
 #grid9 {
-    background-color: #749ACA;
+    background-color: white;
 }
 
 .not-used {

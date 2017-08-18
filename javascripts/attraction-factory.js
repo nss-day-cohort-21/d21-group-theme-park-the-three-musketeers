@@ -12,7 +12,7 @@ let parkMethods = {};
 parkMethods.getAreas = () => {
     return new Promise (function(resolve, reject){
         $.ajax({
-            url:`https://themepark-85ce7.firebaseio.com/areas.json`
+            url:`https://awesome-data-68de5.firebaseio.com/.json`
         })
         .done(function(data){
         //    console.log('thurs', data);
